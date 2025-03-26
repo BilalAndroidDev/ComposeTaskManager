@@ -1,6 +1,7 @@
 package com.example.taskmanagercompose
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -60,9 +61,9 @@ fun HomeScreen() {
             style = TextStyle(fontFamily = poppinsSemiBold, fontSize = 20.sp)
         )
 
-        LazyRow() {
+        LazyRow( horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             items(Utils.getList()) {
-
+                TaskItem(it)
             }
         }
     }

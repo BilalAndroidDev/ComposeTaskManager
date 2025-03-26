@@ -79,9 +79,9 @@ object Utils {
 
     fun getList(): List<TaskEntity> {
         return mutableListOf(
-            TaskEntity(R.drawable.ui_icon, "UI Design", "10", 80),
-            TaskEntity(R.drawable.laravel_icon, "Laravel Task", "20", 30),
-            TaskEntity(R.drawable.pinterest_icon, "Edit Picture", "30", 50),
+            TaskEntity(R.color.selectedColor, R.drawable.ui_icon, "UI Design", "10 Days", 0.5F),
+            TaskEntity(R.color.laravelColor,R.drawable.laravel_icon, "Laravel Task", "20 Days", 0.3F),
+            TaskEntity(R.color.editorColor,R.drawable.pinterest_icon, "Edit Picture", "30 Days", 0.8F),
         )
 
     }

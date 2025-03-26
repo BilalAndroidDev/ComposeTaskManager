@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="baseColor">#006EE9</color>
     <color name="greyColor">#EEF5FD</color>
+    <color name="unselectedColor">#ABCEF5</color>
+    <color name="selectedColor">#006EE9</color>
+    <color name="sliderColor">#004797</color>
+    <color name="laravelColor">#582CD9</color>
+    <color name="editorColor">#CD2C2C</color>
 </resources>
